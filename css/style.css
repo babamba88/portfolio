@@ -66,15 +66,198 @@
 .main {
   position: relative;
   width: 100%;
-  padding-top: 80px;
 }
-.main-img {
+
+.main .main-img {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   background-color: #d9d9d9;
 }
 
 /* project section */
 .project-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 120px 0;
+}
+
+.project-section .section-inner {
+  position: relative;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .08) inset;
+  width: 80%;
+  background-color: #dddddd;
+}
+
+.project-section .section-inner .section-title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 40px 0;
+}
+
+.project-section .section-inner .section-title span {
+  font-size: 46px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.tab-button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tab-button ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.tab-button ul li {
+
+}
+.tab-button ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff66;
+  border-radius: 50px;
+}
+
+.tab-button ul li.active a {
+  background-color: #ff8b00;
+  color: #fff;
+}
+.tab-contents {
+  position: relative;
+  width: 100%;
+}
+
+.tab-contents > ul {
+  position: relative;
+}
+.tab-contents > ul > li {
+  position: relative;
+  display: none;
+}
+
+.tab-contents > ul > li.active {
+  display: block;
+}
+
+/* 디자인 */
+.design {
+  position: relative;
+  width: 100%;
+}
+
+.design ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.design ul li {
+  box-sizing: border-box;
+  width: 33.333%;        /* 한 줄에 3개 */
+  height: 583px;
+  padding: 20px 20px;
+}
+
+.design ul li a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 그래픽 */
+
+.graphic {
+  position: relative;
+  width: 100%;
+}
+
+.graphic ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.graphic ul li {
+  box-sizing: border-box;
+  width: 33.333%;        /* 한 줄에 3개 */
+  height: 583px;
+  padding: 20px 20px;
+}
+
+.graphic ul li a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 비디오 */
+
+.video {
+  position: relative;
+  width: 100%;
+}
+
+.video ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.video ul li {
+  box-sizing: border-box;
+  width: 33.333%;        /* 한 줄에 3개 */
+  height: 583px;
+  padding: 20px 20px;
+}
+
+.video ul li a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* 카드 */
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.card > figure {
+  position: relative;
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #333;
+  overflow: hidden;
+}
+.card figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

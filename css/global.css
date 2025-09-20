@@ -10,7 +10,6 @@ body {
   color: #111;
   line-height: 1.5;
   letter-spacing: -0.23px;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 ul,
