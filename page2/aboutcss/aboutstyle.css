@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    background: #fff;
+    color: #111;
+    line-height: 1.5;
+    letter-spacing: -0.23px;
+    scroll-behavior: smooth;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #111;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.wrap {
+    width: 100%;
+}
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-inner {
+    position: relative;
+    width: 1360px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    position: relative;
+    width: 200px;
+    height: 40px;
+}
+
+.logo a span {
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #d9d9d9;
+}
+
+.nav {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gnb {
+    position: relative;
+    display: flex;
+    gap: 32px;
+}
+
+.gnb a {
+    position: relative;
+    font-weight: 600;
+}
+
+.gnb a:hover {
+    position: relative;
+    opacity: .7;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+}
+
+.about-section .about-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #d9d9d9;
+}
+.aboutmain-img {
+    position: relative;
+}
+.aboutmain-img .section-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #5d5d5d;
+}
+
+
+/* 자기소개 하단 영역 */
+.profile-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #555555;
+    padding: 80px 0 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile-inner {
+    position: relative;
+    width: 1360px;
+    max-width: 92%;
+}
+
+.card-inner {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 28px;
+}
+
+.profile-photo {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.profile-head {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #fff;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.profile-tagline {
+    font-size: 22px;
+    font-weight: 600;
+    opacity: .95;
+}
+
+.profile-grid {
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 24px;
+    color: #fff;
+}
+
+.profile-intro {
+    background: transparent;
+}
+
+.hello {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.muted {
+    opacity: .85;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.profile-list .list-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile-list ul li {
+    font-size: 14px;
+    opacity: .9;
+}
+
+
+/* footer */
+.footer {
+    position: relative;
+    margin-top: 200px;
+    background: #111;
+    color: #fff;
+}
+
+.footer-inner {
+    position: relative;
+    max-width: 1360px;
+    width: 92%;
+    margin: 0 auto;
+    padding: 80px 0 96px;
+}
+
+.social-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.social-links a:hover {
+    opacity: .75;
+}
+
